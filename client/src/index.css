@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    /* border: 1px solid red !important; */
+    @apply font-[FiraSans];
+  }
+
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .grid_container-setup {
+    @apply h-[20rem];
+  }
+
+  .login_form-container {
+    @apply bg-[#D3D3D3] py-[75px] w-[30em] h-[35em] m-0 relative rounded-[1em] drop-shadow-[0_0.188em_1.550em_rgb(156,156,156)] flex flex-col items-center justify-around;
+  }
+
+  .login_form-input {
+    @apply hover:outline-cyan-300 border-none focus:outline-[] bg-[white] h-[4em] w-[80%] rounded-[0.25em] text-center p-[2em];
+  }
+
+  .login_form-button {
+    @apply inline-block p-4 px-12 text-base bg-[#20B1FF] text-white font-medium leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg hover:scale-[1.25] focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out;
+  }
+
+  .grid-container {
+    @apply grid grid-cols-[1fr] grid-rows-[auto_1fr] max-w-[1000px] w-full;
+  }
+
+  .grid-item-title {
+    @apply row-[1_/_1] justify-center;
+  }
+
+  .grid-item-table {
+    @apply row-[2_/_2] overflow-y-auto max-h-[500px] sm:text-center;
+  }
+
+  .grid-item-buttons {
+    @apply row-[3_/_3] grid justify-between z-10;
+  }
+
+  table {
+    @apply w-auto h-[800px] overflow-hidden shadow-[0_0_20px_rgba(0,0,0,0.1)] border-collapse;
+  }
+
+  th,
+  td {
+    @apply bg-[rgba(255,255,255,0.2)] text-white relative m-0 p-4 border-r-[black] border-r border-solid;
+  }
+
+  th {
+    @apply text-center;
+  }
+
+  thead th {
+    @apply bg-[#55608f];
+  }
+
+  tbody tr:hover {
+    @apply bg-[rgba(255,255,255,0.3)];
+  }
+
+  tbody td {
+    @apply relative hover:before:content-[""] hover:before:absolute hover:before:top-[-9999px] hover:before:bottom-[-9999px] hover:before:bg-[rgba(255,255,255,0.2)] hover:before:z-[-1] hover:before:inset-x-0;
+  }
+}
