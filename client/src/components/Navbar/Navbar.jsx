@@ -71,12 +71,12 @@ const Navbar = () => {
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#333]">
-            <a className="flex justify-between items-center w-full text-gray-300" href="https://github.com/papokotos/industrial_v2">
+            <a className="flex justify-between items-center w-full text-gray-300" href="https://github.com/papokotos/industrial_v3">
               GitHub <FaGithub size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#6e5494]">
-            <a className="flex justify-between items-center w-full text-gray-300" href="/">
+            <a className="flex justify-between items-center w-full text-gray-300" href="https://github.com/papokotos/industrial_v3/blob/main/README.md">
               Docs <FcDocument size={30} />
             </a>
           </li>

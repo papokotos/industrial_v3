@@ -47,7 +47,7 @@ const LoginForm = () => {
         </button>
         <div className="flex cursor-default">
           Cannot Login?&nbsp;
-          <a className="font-bold hover:underline" href="https://github.com/papokotos/industrial_v2">
+          <a className="font-bold hover:underline" href="https://github.com/papokotos/industrial_v3">
             Contact Us!
           </a>
         </div>
