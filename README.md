@@ -28,7 +28,7 @@ The user must have previously installed MariaDB on their computer. To do this, g
 8. Write `npm install -g nodemon` and press `ENTER`.
 
 ## Step 6: Configure the Application
-1. Make some changes in the config file of our application. In VS Code, navigate to the server folder, and then into the config folder where a `config.json` file is located.
+1. Make some changes in the config file of our application. In VS Code, navigate to the server folder, and then into the database folder where a `config.json` file is located.
 2. Replace the `root` and `123` fields under development to your own MariaDB username and password. Save the changes.
 
 ## Step 7: Initialize the Application
