@@ -1,6 +1,6 @@
 # Installation Guide for Industrial-Main
 
-This guide provides the steps for installing and initializing the Industrial-Main application.
+This guide provides the steps for installing and initializing our application.
 
 ## Step 1: Download the Repository
 1. Press the green `Code` button on GitHub.
