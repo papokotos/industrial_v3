@@ -14,7 +14,7 @@ Extract the contents of the .zip file to your folder of choice, using the extrac
 The user must have previously installed MariaDB on their computer. To do this, go to the following link, download MariaDB 10.6 for your system, and follow the installation wizard. After doing this, continue with the rest of the steps in this guide.
 
 ## Step 4: Open the Repository with IDE
-1. Open the folder `industrial-main` using your preferred IDE. In this guide we will follow the steps using Visual Studio Code 1.74.3.
+1. Open the folder `industrial_v3` using your preferred IDE. In this guide we will follow the steps using Visual Studio Code 1.74.3.
 2. Press `CTRL + Shift + C` on Windows, or `Command + Shift + C` on Mac or Linux, to open the terminal on the application's path.
 
 ## Step 5: Install the Dependencies
