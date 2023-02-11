@@ -8,10 +8,10 @@ This guide provides the steps for installing and initializing the Industrial-Mai
 3. Wait for the download to finish and then click to show the folder the .zip file was downloaded at, or navigate to your system's designated downloads folder manually.
 
 ## Step 2: Extract the Repository
-Extract the contents of the .zip file to your folder of choice, using the extraction tool of your choice. The extraction will create a folder called `industrial-main`.
+Extract the contents of the .zip file to your folder of choice, using the extraction tool of your choice. The extraction will create a folder called `industrial_v3`.
 
 ## Step 3: Install MariaDB
-The user must have previously installed MariaDB on their computer. To do this, go to the following link, download MariaDB 10.6 for your system, and follow the installation wizard. After doing this, continue with the rest of the steps in this guide.
+The user must have previously installed MariaDB on their computer. To do this, go to the following [link](https://mariadb.org/download/?t=mariadb&p=mariadb&r=11.0.0&os=windows&cpu=x86_64&pkg=zip&m=crete), download MariaDB 10.6 for your system, and follow the installation wizard. After doing this, continue with the rest of the steps in this guide.
 
 ## Step 4: Open the Repository with IDE
 1. Open the folder `industrial_v3` using your preferred IDE. In this guide we will follow the steps using Visual Studio Code 1.74.3.
